@@ -13,7 +13,9 @@ Item {
   id: root
 
   property var shell: null
-  readonly property real glassAlpha: 0.35
+  // The glass opacity the theme sets ([dtp] glass-alpha), the same one the
+  // dtp cards and bar use.
+  readonly property real glassAlpha: Commons.Color.pickAlpha("dtp.glass-alpha", 0.35)
   property string look: "opaque"
   readonly property string wanted: look === "glassy" ? String(glassAlpha) : "1"
 
