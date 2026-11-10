@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.dtpietrzak.glass-popups",
+  "name": "DTP glass popups",
+  "version": "1.0.0",
+  "author": "dtpietrzak",
+  "license": "MIT",
+  "description": "Bar flyouts (audio, Bluetooth, Wi-Fi, display…) take the bar's look: see-through and blurred when the bar is glassy, solid otherwise.",
+  "kinds": ["service"],
+  "keepLoaded": true,
+  "entryPoints": { "service": "Service.qml" },
+  "homepage": "https://github.com/dtpietrzak/omarchy-dtp-glass-popups"
+}
